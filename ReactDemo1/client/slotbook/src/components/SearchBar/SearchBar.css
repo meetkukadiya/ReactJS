@@ -1,0 +1,148 @@
+.searchbar {
+  width: 100%;
+  background-color: #f2f9ff;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgb(214, 214, 214);
+}
+
+.search {
+  width: 100%;
+  color: black;
+  background-color: white;
+  border: 1px black solid;
+  border-radius: 5px;
+  padding: 5px;
+  margin-left: 10px;
+}
+
+.logo {
+  height: 40px;
+  padding: 10px;
+  margin: auto;
+}
+
+.uname {
+  margin-left: 5px;
+}
+
+.utype {
+  font-size: 12px;
+  margin-left: 12px;
+  text-align: left;
+}
+
+.utype span {
+  font-weight: 500;
+  color: gray;
+}
+
+.uname span {
+  font-weight: 500;
+  color: black;
+}
+.SeachInLen {
+  width: 60%;
+}
+.user {
+  height: 40px;
+  border-radius: 50%;
+  margin: auto;
+}
+
+.logod {
+  width: 20%;
+  display: flex;
+  text-align: center;
+}
+
+.userdetail {
+  width: 20%;
+  margin-left: 40px;
+  display: flex;
+  align-items: center;
+  text-align: right;
+  margin-right: 50px;
+}
+
+.ddown {
+  width: 20px;
+  height: 20px;
+  margin-left: 30px;
+}
+
+.uimg {
+  height: 40px;
+  width: 40px;
+}
+
+@media (max-width: 768px) {
+  .searchbar {
+    width: 100%;
+    background-color: #f2f9ff;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgb(214, 214, 214);
+    padding: 5px;
+  }
+
+  .logod {
+    margin-left: 10px;
+    width: 15%;
+    display: flex;
+    text-align: center;
+  }
+
+  .brandname {
+    display: none;
+  }
+
+  .uimg {
+    display: none;
+  }
+
+  .utype {
+    font-size: 8px;
+    margin-left: 25px;
+    text-align: left;
+  }
+
+  .uname {
+    font-size: 15px;
+  }
+
+  .ddown {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+  }
+
+  .SeachInLen {
+    display: flex;
+    align-items: center;
+    width: 64%;
+  }
+
+  .search {
+    width: 100%;
+    color: black;
+    background-color: white;
+    border: 1px black solid;
+    border-radius: 5px;
+    padding: 5px;
+    margin-left: 10px;
+  }
+
+  .userdetail {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .SeachInLen input::placeholder {
+    font-size: 12px;
+  }
+}

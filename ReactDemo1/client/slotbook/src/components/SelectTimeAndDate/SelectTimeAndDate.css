@@ -1,0 +1,116 @@
+.dateTime {
+  min-height: auto;
+  border: #1976d2 solid 2px;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 15px;
+}
+
+.dateandTimeF {
+  display: flex;
+}
+
+.dclock {
+  height: 170px;
+}
+
+.startAndEndTime {
+  height: fit-content;
+  margin: 18px;
+  padding: 8px;
+  border-radius: 20px;
+  user-select: none;
+  border: 2px solid #1976d2;
+}
+
+.SeatinC {
+  height: fit-content;
+  margin: 18px;
+  user-select: none;
+  padding: 8px;
+  border-radius: 20px;
+  border: 2px solid #1976d2;
+}
+
+.grayF {
+  color: gray;
+}
+
+.selectStartAndEnd {
+  display: flex;
+}
+
+.Time {
+  width: 50%;
+}
+
+.SeatNumbers {
+  width: 80%;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+
+.cancelBtn {
+  color: gray;
+  border: 2px solid gray;
+  font-weight: 500;
+  border-radius: 5px;
+  background-color: white;
+  font-size: large;
+  padding: 10px;
+  margin-left: 30px;
+}
+
+.submitBtn {
+  color: white;
+  font-weight: 500;
+  border-radius: 5px;
+  background-color: #21cffd;
+  font-size: large;
+  border-color: #21cffd;
+  padding: 10px;
+  margin-left: 20px;
+}
+
+table {
+  border: 2px solid forestgreen;
+  width: 800px;
+  height: 200px;
+}
+
+th {
+  border-bottom: 1px solid black;
+}
+
+td {
+  text-align: center;
+}
+
+.SlotTable {
+  display: grid;
+  place-items: center;
+}
+
+.DateD {
+  text-align: center;
+}
+
+.textD {
+  text-decoration: none;
+  color: rgb(0, 195, 255);
+}
+
+.showDate {
+  margin: -45px 0px 10px 15px;
+}
+
+.DatePickerWi {
+  width: 100%;
+  overflow: hidden;
+}
+
+.FullCalander {
+  width: 100%;
+}

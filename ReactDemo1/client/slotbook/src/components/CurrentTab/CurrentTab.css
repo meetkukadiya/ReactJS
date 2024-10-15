@@ -1,0 +1,28 @@
+.curTab {
+  margin-top: 10px;
+  display: flex;
+}
+
+.createSlot {
+  height: 37px;
+  width: auto;
+  margin: 0px 20px;
+  padding: 5px;
+  width: 200px;
+  text-align: center;
+  border: 1px solid rgb(173, 172, 172);
+  box-shadow: -1px -1px 1px 0px gray;
+  border-bottom: none;
+}
+
+.currText {
+  font-weight: 600;
+  text-decoration: none;
+  color: rgb(0, 195, 255);
+}
+
+.inactiveTab {
+  color: rgb(0, 195, 255);
+  margin-left: 10px;
+}
+

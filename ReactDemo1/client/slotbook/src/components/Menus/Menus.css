@@ -1,0 +1,47 @@
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 15%;
+  background-color: #f2f9ff;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+  user-select: none;
+  border-right: rgb(217, 217, 217) 2px solid;
+}
+
+@media (max-width: 850px) {
+  .sidebar {
+    display: none;
+  }
+}
+
+.sidebar a {
+  display: block;
+  color: #1e394f;
+  margin-left: 15px;
+  padding: 10px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.sidebar a svg {
+  height: 15px;
+  width: 15px;
+}
+
+.sidebar a.active {
+  color: #02d9ff;
+  font-weight: 700;
+  border-left: 3px solid;
+}
+
+.lgbtn {
+  margin-top: 230px;
+}
+
+@media (max-width: 950px) {
+  .sidebar {
+    font-size: 13px;
+  }
+}

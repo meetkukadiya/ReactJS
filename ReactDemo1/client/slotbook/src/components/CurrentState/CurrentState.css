@@ -1,0 +1,125 @@
+.currentstate {
+  padding: 20px;
+  border-bottom: 2px solid rgb(224, 224, 224);
+  display: flex;
+}
+
+.menuc {
+  width: 20px;
+  height: 20px;
+  background-color: rgb(41, 205, 255);
+  border-radius: 50%;
+  text-align: center;
+  justify-content: center;
+}
+
+.menuc svg {
+  height: 14px;
+  width: 14px;
+  color: white;
+}
+
+.createtext {
+  margin-left: 20px;
+  color: #2f4a67;
+  font-weight: 700;
+  user-select: none;
+}
+
+.disleft {
+  width: 70%;
+  text-align: end;
+  user-select: none;
+}
+
+.disleft svg {
+  height: 20px;
+  width: 20px;
+  margin-right: 20px;
+}
+
+.disleft svg {
+  height: 20px;
+  width: 20px;
+  vertical-align: top;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.disleft span {
+  vertical-align: top;
+  font-size: 15px;
+  color: rgb(0, 195, 255);
+}
+
+.hamburger-button {
+  display: none;
+  background: linear-gradient(to bottom, #6ec6ff 0%, #2196f3 100%);
+  border: none;
+  border-radius: 50%;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  height: 30px; /* Adjust as needed */
+  outline: none;
+  padding: 8px;
+  width: 30px; /* Adjust as needed */
+}
+
+.bottomL {
+  margin-bottom: 10px;
+  border-bottom: 2px solid gray;
+}
+
+.hamburger-icon {
+  background-color: white;
+  display: block;
+  height: 3px; /* Adjust thickness here */
+  position: relative;
+}
+
+.hamburger-icon:before,
+.hamburger-icon:after {
+  background-color: white;
+  content: "";
+  display: block;
+  height: 3px; /* Same thickness as the middle bar */
+  position: absolute;
+  width: 100%; /* Same width as the middle bar */
+}
+
+.hamburger-icon:before {
+  top: -6px; /* Adjust distance between lines here */
+}
+
+.hamburger-icon:after {
+  bottom: -6px; /* Adjust distance between lines here */
+}
+.openMenu {
+  margin-top: -20px;
+  margin-left: 5px;
+  background-color: #f2f9ff;
+  position: absolute;
+  padding: 10px;
+  font-size: large;
+  border: #6ec6ff solid 2px;
+  border-radius: 5px;
+  z-index: 10;
+}
+
+.closeMenu {
+  margin-top: 15px;
+}
+
+@media (max-width: 850px) {
+  .AllCurrState {
+    display: none;
+  }
+  .hamburger-button {
+    display: block;
+  }
+}
+@media (min-width: 850px) {
+  .openMenu {
+    display: none;
+  }
+}
